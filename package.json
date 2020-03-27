@@ -1,0 +1,20 @@
+{
+  "name": "simple-webpack-copy-plugin",
+  "version": "0.1.0",
+  "description": "A simple plugin made to copy my index.html file",
+  "main": "SimpleCopyPlugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanwholey/simple-webpack-copy-plugin.git"
+  },
+  "keywords": [],
+  "author": "Ryan Wholey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanwholey/simple-webpack-copy-plugin/issues"
+  },
+  "homepage": "https://github.com/ryanwholey/simple-webpack-copy-plugin#readme"
+}
