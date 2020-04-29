@@ -1,6 +1,6 @@
 {
   "name": "sedoo-static-upload-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A dumb plugin used only by SEDOO",
   "main": "staticUploadPlugin.js",
   "scripts": {
