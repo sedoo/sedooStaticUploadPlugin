@@ -1,6 +1,6 @@
 {
   "name": "sedoo-static-upload-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dumb plugin used only by SEDOO",
   "main": "staticUploadPlugin.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sedoo/sedooStaticUploadPlugin/issues"
   },
-  "homepage": "https://github.com/sedoo/sedooStaticUploadPlugin#readme"
+  "homepage": "https://github.com/sedoo/sedooStaticUploadPlugin#readme",
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
 }

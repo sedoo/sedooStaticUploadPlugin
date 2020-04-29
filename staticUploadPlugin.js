@@ -9,6 +9,10 @@ const log = getLogger({ name: "Sedoo static upload plugin" });
 function StaticUploadPlugin(options) {
     this.files = options.files;
     this.url = options.url;
+    this.includeFileNameArg = true;
+    if (options.includeFileNameArg) {
+        this.includeFileNameArg = options.includeFileNameArg
+    }
 }
 
 StaticUploadPlugin.prototype.apply = function(compiler) {
@@ -47,6 +51,12 @@ StaticUploadPlugin.prototype.apply = function(compiler) {
                     process.exit(1);
                 }
                 let url = this.url + "?fileName=" + fileName;
+
+                if (!this.includeFileNameArg) {
+                    url = this.url + fileName;
+                }
+
+
                 axios({
                         method: "post",
                         url: url,
